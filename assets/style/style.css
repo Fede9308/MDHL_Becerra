@@ -18,9 +18,7 @@ body{
     display: inline;
     background-color: yellow;
     color: black;
-    position: relative;
-    left:80vh;
-    top: 10vh;
+    
     
    }
    section{
@@ -42,7 +40,7 @@ section h2{
 #logo{
     margin: 0;
 display: inline-block;
-  height: 150%;
+  height: 4rem;
     position: absolute;
     left: 83%;
     top: -29%;
@@ -52,9 +50,21 @@ nav{
        display: inline-block;
 }
 nav a{
+    color: rgb(21, 21, 148);
+    
    padding-bottom: 30%;
    
     display: block;
+}
+a:hover{
+
+    color: darkgoldenrod;
+}
+a:active{
+    color: aqua;
+}
+a[href="#"]{
+    color: rgb(88, 67, 11);
 }
 article{
     position: relative;
@@ -83,6 +93,6 @@ h3{
     
 }
 div{
-    max-width: 70vh;
+    max-width: 100vh;
     display: inline-block;
 }
