@@ -4,6 +4,9 @@
    box-sizing: border-box;
 
 }
+body{
+    background-color: beige;
+}
 
    header{
     
@@ -11,23 +14,75 @@
     background-image: url("../design1_image1_height333.jpg");
    
    }
+   h1{
+    display: inline;
+    background-color: yellow;
+    color: black;
+    position: relative;
+    left:80vh;
+    top: 10vh;
+    
+   }
    section{
     display: block;
     background-color: aquamarine;
     min-height: 5vh;
+    position: relative;
     
 
    }
 
 section h2{
     display: inline-block;
+    position: relative;
+    left: 35%;
+
 }
 
 #logo{
     margin: 0;
-display: inline;
-  width: 15%;
+display: inline-block;
+  height: 150%;
+    position: absolute;
+    left: 83%;
+    top: -29%;
+    }
+
+nav{
+       display: inline-block;
+}
+nav a{
+   padding-bottom: 30%;
+   
+    display: block;
+}
+article{
     position: relative;
+        
+    display: inline-block;
 }
 
-
+#imangen1{
+    display: inline;
+}
+main{
+    padding-left: 5%;
+}
+p{
+    
+    
+    display: block;
+    position: relative;
+    
+}
+h3{
+   
+    
+    display: block;
+    position: relative;
+    
+}
+div{
+    max-width: 70vh;
+    display: inline-block;
+}
