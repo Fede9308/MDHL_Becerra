@@ -27,6 +27,7 @@ body{
     
     
    }
+
    section{
     display: flex;
     background-color: aquamarine;
@@ -53,7 +54,13 @@ display: inline-block;
     }
 
 nav{
-       display: inline-block;
+    min-width: 3rem;
+    height: 10rem;
+       display: flex;
+       flex-direction: column;
+            
+       
+       
 }
 nav a{
     color: rgb(21, 21, 148);
@@ -76,16 +83,19 @@ a[href="#"]{
     color: rgb(88, 67, 11);
 }
 article{
+    
     position: relative;
         
-    display: inline-block;
+    display: block;
 }
 
 #imangen1{
     display: inline;
 }
 main{
-    padding-left: 5%;
+    flex-wrap: wrap;
+    padding-left: 0;
+    display: flex;
 }
 p{
     
@@ -102,6 +112,7 @@ h3{
     
 }
 div{
+    
     max-width: 100vh;
     display: inline-block;
 }
