@@ -9,20 +9,26 @@ body{
 }
 
    header{
-    
+    display: flex;
+    justify-content: center;
     min-height: 20vh;
     background-image: url("../design1_image1_height333.jpg");
    
    }
    h1{
-    display: inline;
+    align-self: center;
+
+    height: 3rem;
+    width: 26rem;
+
+    
     background-color: yellow;
     color: black;
     
     
    }
    section{
-    display: block;
+    display: flex;
     background-color: aquamarine;
     min-height: 5vh;
     position: relative;
@@ -31,7 +37,7 @@ body{
    }
 
 section h2{
-    display: inline-block;
+    display: flex;
     position: relative;
     left: 35%;
 
@@ -51,12 +57,15 @@ nav{
 }
 nav a{
     color: rgb(21, 21, 148);
-    
-   padding-bottom: 30%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    text-align: center;
+   padding-bottom: 5%;
    
     display: block;
 }
 a:hover{
+    background-color: aqua;
 
     color: darkgoldenrod;
 }
@@ -95,4 +104,19 @@ h3{
 div{
     max-width: 100vh;
     display: inline-block;
+}
+
+table{
+    background-color: azure;
+    height: fit-content;
+
+}
+
+
+
+td{
+    text-align: center;
+    background-color:cadetblue;
+    width: 8rem;
+    height: 1rem;
 }
