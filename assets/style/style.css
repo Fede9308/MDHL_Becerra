@@ -55,7 +55,7 @@ display: inline-block;
 
 nav{
     min-width: 3rem;
-    height: 10rem;
+    height: 12rem;
        display: flex;
        flex-direction: column;
             
@@ -113,7 +113,7 @@ h3{
 }
 div{
     
-    max-width: 100vh;
+    max-width: 110vh;
     display: inline-block;
 }
 
@@ -130,4 +130,9 @@ td{
     background-color:cadetblue;
     width: 8rem;
     height: 1rem;
+}
+#registrationForm{
+    max-width: 39rem;
+    display: inline-block;
+
 }

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mighty Ducks Hockey League</title>
+        <link rel="shortcut icon" href="./assets/Logo_Mighty_ducks-02.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/style/style.css">
+    </head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+       
+
+    </header>
+    
+    <section>
+        <h2>Upcoming Events</h2>
+        <img id="logo" src="./assets/Logo_Mighty_ducks-01.png" alt="Logo completo de Mighty Ducks Hockey League" >
+
+    </section>
+  <main>
+    <div id="contendorNav">
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About MDHL</a>
+            <a href="./contact.html">Contact</a> 
+            <a href="./rules.html">Rules</a> 
+            <a href="./game_information.html">Game Info</a> 
+            <a href="#">Registration</a>
+        </nav>
+
+    </div>
+
+    <div id="registrationForm" >
+        <h3>
+            Registration Form
+        </h3>
+        <form action="./show_data.html" method="get">
+            <fieldset>
+                <label for="namef">Player's First Name</label>
+                <input name="name" type="text" id="namef">
+                <label for="namel">Last Name</label>
+                <input name="name" type="text" id="namel">
+            </fieldset>
+            <fieldset>
+                <label for="address">Street Address</label>
+                <input name="street" type="text" id="address">                
+            </fieldset>
+            <fieldset>
+                <label for="cityName">City</label>
+                <input name="city" type="text" id="cityName">
+                <label for="zip">Zip Code</label>
+                <input name="zipCode" type="number" id="zip">                                
+            </fieldset>
+            <fieldset>
+                <label>Birth Date:
+                    <input name="birthday" type="date">
+                </label>
+                Gender:
+                <label>
+                    Female
+                    <input type="radio" name="gender" value="F">
+                </label>
+                <label>
+                    Male
+                    <input type="radio" name="gender" value="M">
+                </label>               
+
+            </fieldset>
+            <fieldset>
+                Grade:
+                <label>
+                    Pre-School
+                    <input type="radio" name="grade" value="PS">
+                </label>   
+                <label>
+                    1st
+                    <input type="radio" name="grade" value="1">
+                </label>
+                <label>
+                    2nd
+                    <input type="radio" name="grade" value="2">
+                </label> 
+                <label>
+                    3rd
+                    <input type="radio" name="grade" value="3">
+                </label> 
+                <label>
+                    4th
+                    <input type="radio" name="grade" value="4">
+                </label> 
+                <label>
+                    5th
+                    <input type="radio" name="grade" value="5">
+                </label>    
+            </fieldset>
+            <fieldset>
+               <h5> Wich elementary school do you live near?</h5>
+               <h5>Closest School:</h5>
+               <div class="sochoolForms">
+                    <label>
+                         AJ Katzenmaier
+                        <input type="radio" name="school" value="Aj Katzenmaier">
+                    </label> 
+                    <label>
+                        Greenbay
+                        <input type="radio" name="school" value="Greenbay">
+                    </label> 
+                    <label>
+                         Howard A Yeager
+                        <input type="radio" name="school" value="Howard A Yeager">
+                    </label> 
+               </div>
+               <div class="sochoolForms">                               
+                    <label>
+                        Marjorie P Hart
+                        <input type="radio" name="school" value="Marjorie P Hart">
+                    </label> 
+                    <label>
+                         North Elementary
+                        <input type="radio" name="school" value="North Elementary">
+                    </label> 
+                    <label>
+                        South Elementary
+                        <input type="radio" name="school" value="South Elementary">
+                    </label> 
+                </div>
+            
+            </fieldset>
+            <fieldset>
+                <h5>What position(s) do you normally play?(check all that apply)</h5>
+                <div class="position">
+                    <label>
+                        Foward
+                        <input type="checkbox" value="Forward" >
+                    </label>
+                    <label>
+                        Defense
+                        <input type="checkbox" value="Defense" >
+                    </label>
+                </div>
+                <div class="position">
+                    <label>
+                        Midfield
+                        <input type="checkbox" value="Midfield" >
+                    </label>
+                    <label>
+                        Goalkeeper
+                        <input type="checkbox" value="Goalkeeper" >
+                    </label>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <h5>Uniform Size</h5>
+                
+            </fieldset>
+
+
+        </form>
+
+
+    </div>
+
+
+  </main>
+    
+</body>
+</html>
