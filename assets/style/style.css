@@ -2,86 +2,89 @@
    margin: 5px; 
    padding: 0;
    box-sizing: border-box;
+   font-family: sans-serif;
 
 }
 body{
-    background-color: beige;
-}
+        background-color: beige;
+    }
+    main{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0;
+        display: flex;
+    }
 
-   header{
-    display: flex;
-    justify-content: center;
-    min-height: 20vh;
-    background-image: url("../design1_image1_height333.jpg");
+header{
+        display: flex;
+        justify-content: center;
+        min-height: 20vh;
+        background-image: url("../design1_image1_height333.jpg");
    
-   }
-   h1{
-    align-self: center;
-
-    height: 3rem;
-    width: 26rem;
-
-    
-    background-color: yellow;
-    color: black;
-    
-    
-   }
+    }
+h1{    
+        height: 3rem;
+        width: 28.5rem;
+        color: black;
+        text-shadow: 3px 3px yellow;
+        
+     }
+.titulo{
+        align-self: center;
+        justify-self: center;
+    }
 
    section{
-    display: flex;
-    background-color: aquamarine;
-    min-height: 5vh;
-    position: relative;
+        justify-content: center;
+        display: flex;
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        min-height: 5vh;
+        position: relative;
+        width: 100%;
+    
+   }
     
 
-   }
-
-section h2{
-    display: flex;
-    position: relative;
-    left: 35%;
-
-}
-
 #logo{
-    margin: 0;
-display: inline-block;
-  height: 4rem;
-    position: absolute;
-    left: 83%;
-    top: -29%;
+        margin: 0;
+        display: inline-block;
+        height: 4rem;
+        position: absolute;
+        left: 83%;
+        top: -29%;
     }
 
 nav{
-    min-width: 3rem;
-    height: 12rem;
-       display: flex;
-       flex-direction: column;
-            
-       
-       
-}
+        min-width: 3rem;
+        height: 14rem;
+        display: flex;
+        flex-direction: column;        
+    }
 nav a{
-    color: rgb(21, 21, 148);
-    background-color: aquamarine;
-    border-radius: 10px;
-    text-align: center;
-   padding-bottom: 5%;
-   
+        color: rgb(21, 21, 148);
+        background-color:transparent;
+        border-radius: 10px;
+        text-align: center;
+        padding-bottom: 5%; 
+        border-style: solid;     
+        border-color:aquamarine;
+        text-decoration: none; 
     display: block;
-}
+    }
 a:hover{
-    background-color: aqua;
+        background-color:aquamarine;
 
-    color: darkgoldenrod;
-}
+        color: darkgoldenrod;
+        }
 a:active{
-    color: aqua;
-}
+            color:coral;
+        }
 a[href="#"]{
+    background-color: aquamarine;
     color: rgb(88, 67, 11);
 }
+
 article{
     
     position: relative;
@@ -92,12 +95,7 @@ article{
 #imangen1{
     display: inline;
 }
-main{
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 0;
-    display: flex;
-}
+
 p{
     
     
@@ -133,19 +131,82 @@ td{
     height: 1rem;
 }
 #registrationForm{
-    max-width: 39rem;
+    border-radius: 10px;
+    background: rgb(216,224,8);
+    background: linear-gradient(0deg, rgba(216,224,8,1) 0%, rgba(156,19,245,1) 100%);
+    max-width: 40rem;
     display: inline-block;
 
 }
+
 #info{
     width: 24rem;
 
 }
 .maps{
+    box-shadow: 2px 2px 2px gray;
     border-radius: 10px;
     text-align: center;
     background-color:thistle;
 }
 .maps>iframe{
     border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+
+    header{
+        display: flex;
+        justify-content: center;
+        min-height: 10vh;
+        background-image: url("../design1_image1_height333.jpg");
+   
+    }
+    h1{   
+        font-size:large; 
+        height: 2rem;
+        width: 10rem;
+        color: black;
+        text-shadow: 3px 3px yellow;
+        text-align: center;
+        
+    }
+    section{
+        justify-content: center;
+        display: flex;
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        min-height: 3vh;
+        position: relative;
+        width: 100%;
+    
+   }
+    section>h2{
+        font-size: large;
+    }
+    #logo{
+        margin: 0;
+        display: inline-block;
+        height: 2rem;
+        position: absolute;
+        left: 83%;
+        top: -29%;
+    }
+    .maps>iframe{
+        width: 18rem;
+        border-radius: 10px;
+    }
+    p{
+        font-size: small;
+    }
+    li{
+        font-size: small;
+    }
+    #contact{
+        text-align: center;
+        width: 28rem;
+    }
+
+
+    
 }
