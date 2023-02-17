@@ -93,6 +93,7 @@ article{
     display: inline;
 }
 main{
+    justify-content: center;
     flex-wrap: wrap;
     padding-left: 0;
     display: flex;
@@ -135,4 +136,16 @@ td{
     max-width: 39rem;
     display: inline-block;
 
+}
+#info{
+    width: 24rem;
+
+}
+.maps{
+    border-radius: 10px;
+    text-align: center;
+    background-color:thistle;
+}
+.maps>iframe{
+    border-radius: 10px;
 }
